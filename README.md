@@ -1,4 +1,4 @@
-# Scholar_App-production
+﻿# Scholar_App-production
 An app to manage the Chancellor's Scholars Program information
 
 This mobile application will present all of the information for the SIUC Chancellor's Scholars Program in one central location.
@@ -13,3 +13,4 @@ Functionalities of this app include:
 6. Push notifications
 
 Team lead: Courtney Kinnard | ckinnard@siu.edu
+QA Manager: Gabriel Wohlwend | gabewohlwend@siu.edu
