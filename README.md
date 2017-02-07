@@ -14,3 +14,4 @@ Functionalities of this app include:
 
 Team lead: Courtney Kinnard | ckinnard@siu.edu
 QA Manager: Gabriel Wohlwend | gabewohlwend@siu.edu
+Jeffrey Jung | jpjung2@siu.edu
