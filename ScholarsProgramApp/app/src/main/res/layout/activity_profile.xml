@@ -31,5 +31,33 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:id="@+id/buttonLogOut" />
+
+        <Button
+            android:text="Contact List"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/buttonContactList" />
+
+        <Button
+            android:text="Message Board"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/buttonMessageBoard" />
+
+        <Button
+            android:text="Calendar"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/buttonCalendar" />
+
+        <Button
+            android:text="Messages"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/buttonMessages"/>
     </LinearLayout>
 </RelativeLayout>

@@ -19,6 +19,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     //create objects for GUI components
     private TextView textViewUserEmail;
     private Button buttonLogOut;
+    private Button buttonContactList;
+    private Button buttonMessageBoard;
 
 
     @Override
@@ -41,12 +43,16 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         //link objects with references to GUI components
         textViewUserEmail = (TextView) findViewById(R.id.textViewUserEmail);
         buttonLogOut = (Button) findViewById(R.id.buttonLogOut);
+        buttonContactList = (Button) findViewById(R.id.buttonContactList);
+        buttonMessageBoard = (Button) findViewById(R.id.buttonMessageBoard);
 
         //set textViewUserEmail text to let the user know they're logged in
         textViewUserEmail.setText(user.getEmail() + " is logged in!");
 
         //create onclicklistener for button
         buttonLogOut.setOnClickListener(this);
+        buttonContactList.setOnClickListener(this);
+        buttonMessageBoard.setOnClickListener(this);
 
 
     }
@@ -59,6 +65,13 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             firebaseAuth.signOut();
             finish();
             startActivity(new Intent(this, MainActivity.class));
+        } else if (view == buttonContactList) {
+            //need to create a new activity for the Contact List
+            // startActivity(new Intent(this, ContactsActivity.class));
+
+        }else if(view == buttonMessageBoard){
+            //need to create a new activity for the Contact List
+            // startActivity(new Intent(this, MessageBoardActivity.class));
         }
 
     }
