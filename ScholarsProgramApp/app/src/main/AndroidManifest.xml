@@ -17,7 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".MessageBoardActivity" />
+        <activity android:name=".ServiceHourActivity" />
+        <activity android:name=".ContactPageActivity"></activity>
     </application>
 
 </manifest>
