@@ -10,4 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="siucs.scholarsprogramapp.ContactPageActivity">
 
+    <TextView
+        android:text="Jeffrey Jung   jpjung2@siu.edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="46dp"
+        android:id="@+id/textView2" />
 </RelativeLayout>
