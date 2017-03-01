@@ -83,7 +83,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             startActivity(new Intent(this, CalendarActivity.class));
         }else if( view == buttonServiceHours){
             // when service hour button hit, start ServiceHour Activity
-            startActivity(new Intent(this, ServiceHour.class));
+            startActivity(new Intent(this, ServiceHourActivity.class));
         }
 
     }
