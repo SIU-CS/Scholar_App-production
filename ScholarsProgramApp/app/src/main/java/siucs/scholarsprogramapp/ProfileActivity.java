@@ -21,6 +21,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private Button buttonLogOut;
     private Button buttonContactList;
     private Button buttonMessageBoard;
+    private Button buttonCalendar;
+    private Button buttonServiceHours;
 
 
     @Override
@@ -45,6 +47,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         buttonLogOut = (Button) findViewById(R.id.buttonLogOut);
         buttonContactList = (Button) findViewById(R.id.buttonContactList);
         buttonMessageBoard = (Button) findViewById(R.id.buttonMessageBoard);
+        buttonCalendar = (Button) findViewById(R.id.buttonCalendar);
+        buttonServiceHours = (Button) findViewById(R.id.buttonServiceHours);
 
         //set textViewUserEmail text to let the user know they're logged in
         textViewUserEmail.setText(user.getEmail() + " is logged in!");
@@ -53,6 +57,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         buttonLogOut.setOnClickListener(this);
         buttonContactList.setOnClickListener(this);
         buttonMessageBoard.setOnClickListener(this);
+        buttonCalendar.setOnClickListener(this);
+        buttonServiceHours.setOnClickListener(this);
 
 
     }
@@ -66,12 +72,18 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             finish();
             startActivity(new Intent(this, MainActivity.class));
         } else if (view == buttonContactList) {
-            //need to create a new activity for the Contact List
-            // startActivity(new Intent(this, ContactsActivity.class));
+            // when contact button hit, start ContactPage Activity
+            startActivity(new Intent(this, ContactPageActivity.class));
 
         }else if(view == buttonMessageBoard){
-            //need to create a new activity for the Contact List
-            // startActivity(new Intent(this, MessageBoardActivity.class));
+            // when message board button hit, start MessageBoard Activity
+            startActivity(new Intent(this, MessageBoardActivity.class));
+        }else if(view == buttonCalendar){
+            // when caledar button hit, start Calendar Activity
+            startActivity(new Intent(this, CalendarActivity.class));
+        }else if( view == buttonServiceHours){
+            // when service hour button hit, start ServiceHour Activity
+            startActivity(new Intent(this, ServiceHour.class));
         }
 
     }

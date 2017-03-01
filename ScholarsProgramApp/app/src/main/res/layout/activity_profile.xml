@@ -54,10 +54,10 @@
             android:id="@+id/buttonCalendar" />
 
         <Button
-            android:text="Messages"
+            android:text="Service Hours"
             android:layout_width="198dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:id="@+id/buttonMessages"/>
+            android:id="@+id/buttonServiceHours"/>
     </LinearLayout>
 </RelativeLayout>
