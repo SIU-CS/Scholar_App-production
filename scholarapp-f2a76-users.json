@@ -1,858 +1,980 @@
 {
   "users" : {
-    "hhurlburt" : {
-      "class" :  0,
-      "email" : "hurlburt@siu.edu",
-      "faculty" : "Yes",
-      "firstName" : "Holly",
-      "lastName" : "Hurlburt"
+	"hhurlburt" : {
+	  "class" : 0,
+	  "email" : "hurlburt@siu.edu",
+	  "faculty" : "Yes",
+	  "firstName" : "Holly",
+	  "lastName" : "Hurlburt",
+	  "serviceHours" : "0"
     },
     "mwickey" : {
-      "class" :  0,
+      "class" : 0,
       "email" : "matthew.wickey@siu.edu",
       "faculty" : "Yes ",
       "firstName" : "Matthew",
-      "lastName" : "Wickey"
+      "lastName" : "Wickey",
+      "serviceHours" : "0"
     },
     "falejo" : {
       "class" : 2018,
       "email" : "franchesca.alejo@siu.edu",
       "faculty" : "No",
       "firstName" : "Franchesca",
-      "lastName" : "Alejo"
+      "lastName" : "Alejo",
+      "serviceHours" : "0"
     },
     "damos" : {
       "class" : 2017,
       "email" : "d.marie@siu.edu",
       "faculty" : "No",
       "firstName" : "Delia",
-      "lastName" : "Amos"
+      "lastName" : "Amos",
+      "serviceHours" : "0"
     },
     "eanderson" : {
       "class" : 2017,
       "email" : "erin.anderson117@siu.edu",
       "faculty" : "No",
       "firstName" : "Erin",
-      "lastName" : "Anderson"
+      "lastName" : "Anderson",
+      "serviceHours" : "0"
     },
     "kbaalman" : {
       "class" : 2017,
       "email" : "kbaal@siu.edu",
       "faculty" : "No",
       "firstName" : "Kailyn",
-      "lastName" : "Baalman"
+      "lastName" : "Baalman",
+      "serviceHours" : "0"
     },
     "mbaker" : {
       "class" : 2020,
       "email" : "maura.baker@siu.edu",
       "faculty" : "No",
       "firstName" : "Maura",
-      "lastName" : "Baker"
+      "lastName" : "Baker",
+      "serviceHours" : "0"
     },
     "cbammann" : {
       "class" : 2019,
       "email" : "c.bammann15@siu.edu",
       "faculty" : "No",
       "firstName" : "Clair",
-      "lastName" : "Bammann"
+      "lastName" : "Bammann",
+      "serviceHours" : "0"
     },
     "gbarrows" : {
       "class" : 2017,
       "email" : "barrowsgage@siu.edu",
       "faculty" : "No",
       "firstName" : "Gage",
-      "lastName" : "Barrows"
+      "lastName" : "Barrows",
+      "serviceHours" : "0"
     },
     "abeckmeyer" : {
       "class" : 2017,
       "email" : "abeckmeyer@siu.edu",
       "faculty" : "No",
       "firstName" : "Annamarie",
-      "lastName" : "Beckmeyer"
+      "lastName" : "Beckmeyer",
+      "serviceHours" : "0"
     },
     "eblalock" : {
       "class" : 2018,
       "email" : "eblalock2014@siu.edu",
       "faculty" : "No",
       "firstName" : "Elizabeth",
-      "lastName" : "Blalock"
+      "lastName" : "Blalock",
+      "serviceHours" : "0"
     },
     "jbonadurer" : {
       "class" : 2019,
       "email" : "jbonadurer@siu.edu",
       "faculty" : "No",
       "firstName" : "Jordan",
-      "lastName" : "Bonadurer"
+      "lastName" : "Bonadurer",
+      "serviceHours" : "0"
     },
     "aboudreau" : {
       "class" : 2018,
       "email" : "aboudreau@siu.edu",
       "faculty" : "No",
       "firstName" : "Alaina",
-      "lastName" : "Boudreau"
+      "lastName" : "Boudreau",
+      "serviceHours" : "0"
     },
     "cbouey" : {
       "class" : 2018,
       "email" : "cbouey@siu.edu",
       "faculty" : "No",
       "firstName" : "Carmen",
-      "lastName" : "Bouey"
+      "lastName" : "Bouey",
+      "serviceHours" : "0"
     },
     "vbrooks" : {
       "class" : 2018,
       "email" : "vyctoria.brooks@siu.edu",
       "faculty" : "No",
       "firstName" : "Vyctoria",
-      "lastName" : "Brooks"
+      "lastName" : "Brooks",
+      "serviceHours" : "0"
     },
     "ebuice" : {
       "class" : 2019,
       "email" : "ebuic3@siu.edu",
       "faculty" : "No",
       "firstName" : "Emily",
-      "lastName" : "Buice"
+      "lastName" : "Buice",
+      "serviceHours" : "0"
     },
     "acampbell" : {
       "class" : 2017,
       "email" : "allison.campbell@siu.edu",
       "faculty" : "No",
       "firstName" : "Allison",
-      "lastName" : "Campbell"
+      "lastName" : "Campbell",
+      "serviceHours" : "0"
     },
     "acarson" : {
       "class" : 2019,
       "email" : "alyciacarson15@siu.edu",
       "faculty" : "No",
       "firstName" : "Alycia",
-      "lastName" : "Carson"
+      "lastName" : "Carson",
+      "serviceHours" : "0"
     },
     "tcortez" : {
       "class" : 2020,
       "email" : "tomas.cortez@siu.edu",
       "faculty" : "No",
       "firstName" : "Tomas",
-      "lastName" : "Cortez"
+      "lastName" : "Cortez",
+      "serviceHours" : "0"
     },
     "adavis" : {
       "class" : 2020,
       "email" : "andrew.davis@siu.edu",
       "faculty" : "No",
       "firstName" : "Andrew",
-      "lastName" : "Davis"
+      "lastName" : "Davis",
+      "serviceHours" : "0"
     },
     "rdavis" : {
       "class" : 2020,
       "email" : "ryan.w.davis@siu.edu",
       "faculty" : "No",
       "firstName" : "Ryan",
-      "lastName" : "Davis"
+      "lastName" : "Davis",
+      "serviceHours" : "0"
     },
     "meason" : {
       "class" : 2020,
       "email" : "makayla.eason@siu.edu",
       "faculty" : "No",
       "firstName" : "Makayla",
-      "lastName" : "Eason"
+      "lastName" : "Eason",
+      "serviceHours" : "0"
     },
     "meaton" : {
       "class" : 2017,
       "email" : "miller.eaton@siu.edu",
       "faculty" : "No",
       "firstName" : "Miller",
-      "lastName" : "Eaton"
+      "lastName" : "Eaton",
+      "serviceHours" : "0"
     },
     "redgar" : {
       "class" : 2017,
       "email" : "rachel.edgar@siu.edu",
       "faculty" : "No",
       "firstName" : "Rachel",
-      "lastName" : "Edgar"
+      "lastName" : "Edgar",
+      "serviceHours" : "0"
     },
     "jellsworth" : {
       "class" : 2020,
       "email" : "jake.ellsworth@siu.edu",
       "faculty" : "No",
       "firstName" : "Jake",
-      "lastName" : "Ellsworth"
+      "lastName" : "Ellsworth",
+      "serviceHours" : "0"
     },
     "lengelmeier" : {
       "class" : 2017,
       "email" : "athirae@siu.edu",
       "faculty" : "No",
       "firstName" : "Lizabeth",
-      "lastName" : "Engelmeier"
+      "lastName" : "Engelmeier",
+      "serviceHours" : "0"
     },
     "afarthing" : {
       "class" : 2020,
       "email" : "aaron.farthing@siu.edu",
       "faculty" : "No",
       "firstName" : "Aaron",
-      "lastName" : "Farthing"
+      "lastName" : "Farthing",
+      "serviceHours" : "0"
     },
     "kflood" : {
       "class" : 2020,
       "email" : "kendra.flood@siu.edu",
       "faculty" : "No",
       "firstName" : "Kendra",
-      "lastName" : "Flood"
+      "lastName" : "Flood",
+      "serviceHours" : "0"
     },
     "afoy" : {
       "class" : 2018,
       "email" : "andrew.foy@siu.edu",
       "faculty" : "No",
       "firstName" : "Andrew",
-      "lastName" : "Foy"
+      "lastName" : "Foy",
+      "serviceHours" : "0"
     },
     "kfriend" : {
       "class" : 2018,
       "email" : "katiefriend@siu.edu",
       "faculty" : "No",
       "firstName" : "Kaitlin",
-      "lastName" : "Friend"
+      "lastName" : "Friend",
+      "serviceHours" : "0"
     },
     "agagne" : {
       "class" : 2018,
       "email" : "alohilanigagne@siu.edu",
       "faculty" : "No",
       "firstName" : "Alohilani",
-      "lastName" : "Gagne"
+      "lastName" : "Gagne",
+      "serviceHours" : "0"
     },
     "jgaston" : {
       "class" : 2018,
       "email" : "jgaston@siu.edu",
       "faculty" : "No",
       "firstName" : "Jordan",
-      "lastName" : "Gaston"
+      "lastName" : "Gaston",
+      "serviceHours" : "0"
     },
     "jgiacobbi" : {
       "class" : 2020,
       "email" : "jessica.giacobbi@siu.edu",
       "faculty" : "No",
       "firstName" : "Jessica",
-      "lastName" : "Giacobbi"
+      "lastName" : "Giacobbi",
+      "serviceHours" : "0"
     },
     "agoeckner" : {
       "class" : 2018,
       "email" : "aarongoeckner@siu.edu",
       "faculty" : "No",
       "firstName" : "Aaron",
-      "lastName" : "Goeckner"
+      "lastName" : "Goeckner",
+      "serviceHours" : "0"
     },
     "sgreen" : {
       "class" : 2017,
       "email" : "sam.green@siu.edu",
       "faculty" : "No",
       "firstName" : "Samantha",
-      "lastName" : "Green"
+      "lastName" : "Green",
+      "serviceHours" : "0"
     },
     "ahall" : {
       "class" : 2019,
       "email" : "hall.adam@siu.edu",
       "faculty" : "No",
       "firstName" : "Adam",
-      "lastName" : "Hall"
+      "lastName" : "Hall",
+      "serviceHours" : "0"
     },
     "ehall-skank" : {
       "class" : 2018,
       "email" : "emmalie.hall.skank@siu.edu",
       "faculty" : "No",
       "firstName" : "Emmalie",
-      "lastName" : "Hall-Skank"
+      "lastName" : "Hall-Skank",
+      "serviceHours" : "0"
     },
     "mhalpin" : {
       "class" : 2017,
       "email" : "myhalpin@siu.edu",
       "faculty" : "No",
       "firstName" : "Michael",
-      "lastName" : "Halpin"
+      "lastName" : "Halpin",
+      "serviceHours" : "0"
     },
     "nhanke" : {
       "class" : 2017,
       "email" : "nhanke@siu.edu",
       "faculty" : "No",
       "firstName" : "Nicole",
-      "lastName" : "Hanke"
+      "lastName" : "Hanke",
+      "serviceHours" : "0"
     },
     "rharder" : {
       "class" : 2019,
       "email" : "rebecca.harder@siu.edu",
       "faculty" : "No",
       "firstName" : "Rebecca",
-      "lastName" : "Harder"
+      "lastName" : "Harder",
+      "serviceHours" : "0"
     },
     "sharrington" : {
       "class" : 2019,
       "email" : "shelby.harrington@siu.edu",
       "faculty" : "No",
       "firstName" : "Shelby",
-      "lastName" : "Harrington"
+      "lastName" : "Harrington",
+      "serviceHours" : "0"
     },
     "mhiggins" : {
       "class" : 2018,
       "email" : "masonhiggins@siu.edu",
       "faculty" : "No",
       "firstName" : "Mason",
-      "lastName" : "Higgins"
+      "lastName" : "Higgins",
+      "serviceHours" : "0"
     },
     "ghorman" : {
       "class" : 2018,
       "email" : "ghorman@siu.edu",
       "faculty" : "No",
       "firstName" : "Grace",
-      "lastName" : "Horman"
+      "lastName" : "Horman",
+      "serviceHours" : "0"
     },
     "yibrahim" : {
       "class" : 2020,
       "email" : "yasmin.ibrahim@siu.edu",
       "faculty" : "No",
       "firstName" : "Yasmin",
-      "lastName" : "Ibrahim"
+      "lastName" : "Ibrahim",
+      "serviceHours" : "0"
     },
     "kjenkins" : {
       "class" : 2018,
       "email" : "mrkevinjenkins18@siu.edu",
       "faculty" : "No",
       "firstName" : "Kevin",
-      "lastName" : "Jenkins"
+      "lastName" : "Jenkins",
+      "serviceHours" : "0"
     },
     "ejohns" : {
       "class" : 2020,
       "email" : "emma.johns@siu.edu",
       "faculty" : "No",
       "firstName" : "Emma",
-      "lastName" : "Johns"
+      "lastName" : "Johns",
+      "serviceHours" : "0"
     },
     "ajohnson" : {
       "class" : 2018,
       "email" : "arjohnson@siu.edu",
       "faculty" : "No",
       "firstName" : "Alexis",
-      "lastName" : "Johnson"
+      "lastName" : "Johnson",
+      "serviceHours" : "0"
     },
     "cjohnson" : {
       "class" : 2018,
       "email" : "cojo6@siu.edu",
       "faculty" : "No",
       "firstName" : "Cody",
-      "lastName" : "Johnson"
+      "lastName" : "Johnson",
+      "serviceHours" : "0"
     },
     "ajourdan" : {
       "class" : 2017,
       "email" : "mandi.jourdan@siu.edu",
       "faculty" : "No",
       "firstName" : "Amanda",
-      "lastName" : "Jourdan"
+      "lastName" : "Jourdan",
+      "serviceHours" : "0"
     },
     "akellerman" : {
       "class" : 2019,
       "email" : "allikellerman@siu.edu",
       "faculty" : "No",
       "firstName" : "Allison",
-      "lastName" : "Kellerman"
+      "lastName" : "Kellerman",
+      "serviceHours" : "0"
     },
     "ckinnard" : {
       "class" : 2018,
       "email" : "ckinnard@siu.edu",
       "faculty" : "No",
       "firstName" : "Courtney",
-      "lastName" : "Kinnard"
+      "lastName" : "Kinnard",
+      "serviceHours" : "0"
     },
     "kkirkpatrick" : {
       "class" : 2017,
       "email" : "kkirkpatrick17@siu.edu",
       "faculty" : "No",
       "firstName" : "Kori",
-      "lastName" : "Kirkpatrick"
+      "lastName" : "Kirkpatrick",
+      "serviceHours" : "0"
     },
     "zkoester" : {
       "class" : 2017,
       "email" : "koester.zoey@siu.edu",
       "faculty" : "No",
       "firstName" : "Zoey",
-      "lastName" : "Koester"
+      "lastName" : "Koester",
+      "serviceHours" : "0"
     },
     "akurumbail" : {
       "class" : 2017,
       "email" : "ark42@siu.edu",
       "faculty" : "No",
       "firstName" : "Anurag",
-      "lastName" : "Kurumbail"
+      "lastName" : "Kurumbail",
+      "serviceHours" : "0"
     },
     "tlane" : {
       "class" : 2019,
       "email" : "thunderer52@siu.edu",
       "faculty" : "No",
       "firstName" : "Thorin",
-      "lastName" : "Lane"
+      "lastName" : "Lane",
+      "serviceHours" : "0"
     },
     "nlangheld" : {
       "class" : 2018,
       "email" : "nicholas.langheld@siu.edu",
       "faculty" : "No",
       "firstName" : "Nicholas",
-      "lastName" : "Langheld"
+      "lastName" : "Langheld",
+      "serviceHours" : "0"
     },
     "tlarsen" : {
       "class" : 2019,
       "email" : "tyboy60@siu.edu",
       "faculty" : "No",
       "firstName" : "Tyler",
-      "lastName" : "Larsen"
+      "lastName" : "Larsen",
+      "serviceHours" : "0"
     },
     "elechman" : {
       "class" : 2018,
       "email" : "ellechman@siu.edu",
       "faculty" : "No",
       "firstName" : "Ellen",
-      "lastName" : "Lechman"
+      "lastName" : "Lechman",
+      "serviceHours" : "0"
     },
     "klee" : {
       "class" : 2017,
       "email" : "kelsie.lee@siu.edu",
       "faculty" : "No",
       "firstName" : "Kelsie",
-      "lastName" : "Lee"
+      "lastName" : "Lee",
+      "serviceHours" : "0"
     },
     "clingle" : {
       "class" : 2017,
       "email" : "lingle.cody@siu.edu",
       "faculty" : "No",
       "firstName" : "Cody",
-      "lastName" : "Lingle"
+      "lastName" : "Lingle",
+      "serviceHours" : "0"
     },
     "dlovett" : {
       "class" : 2020,
       "email" : "donteika.lovett@siu.edu",
       "faculty" : "No",
       "firstName" : "Donteika",
-      "lastName" : "Lovett"
+      "lastName" : "Lovett",
+      "serviceHours" : "0"
     },
     "aludlow" : {
       "class" : 2017,
       "email" : "ludlow94@siu.edu",
       "faculty" : "No",
       "firstName" : "Alan",
-      "lastName" : "Ludlow"
+      "lastName" : "Ludlow",
+      "serviceHours" : "0"
     },
     "lmahan" : {
       "class" : 2018,
       "email" : "levimahan44@siu.edu",
       "faculty" : "No",
       "firstName" : "Levi",
-      "lastName" : "Mahan"
+      "lastName" : "Mahan",
+      "serviceHours" : "0"
     },
     "tmann" : {
       "class" : 2017,
       "email" : "trmann@siu.edu",
       "faculty" : "No",
       "firstName" : "Trebor",
-      "lastName" : "Mann"
+      "lastName" : "Mann",
+      "serviceHours" : "0"
     },
     "amaranto" : {
       "class" : 2019,
       "email" : "amaranto00@siu.edu",
       "faculty" : "No",
       "firstName" : "Anastasia",
-      "lastName" : "Maranto"
+      "lastName" : "Maranto",
+      "serviceHours" : "0"
     },
     "mmartinez" : {
       "class" : 2018,
       "email" : "maritzamartinez917@siu.edu",
       "faculty" : "No",
       "firstName" : "Maritza",
-      "lastName" : "Martinez"
+      "lastName" : "Martinez",
+      "serviceHours" : "0"
     },
     "pmccaleb" : {
       "class" : 2018,
       "email" : "pmccaleb@siu.edu",
       "faculty" : "No",
       "firstName" : "Paige",
-      "lastName" : "McCaleb"
+      "lastName" : "McCaleb",
+      "serviceHours" : "0"
     },
     "amedina" : {
       "class" : 2018,
       "email" : "adrianamedina96@siu.edu",
       "faculty" : "No",
       "firstName" : "Adriana",
-      "lastName" : "Medina"
+      "lastName" : "Medina",
+      "serviceHours" : "0"
     },
     "ameyers" : {
       "class" : 2018,
       "email" : "ameyers@siu.edu",
       "faculty" : "No",
       "firstName" : "Alyssa",
-      "lastName" : "Meyers"
+      "lastName" : "Meyers",
+      "serviceHours" : "0"
     },
     "bmoroney" : {
       "class" : 2020,
       "email" : "bridget.moroney@siu.edu",
       "faculty" : "No",
       "firstName" : "Bridget",
-      "lastName" : "Moroney"
+      "lastName" : "Moroney",
+      "serviceHours" : "0"
     },
     "zmyers" : {
       "class" : 2018,
       "email" : "myerszt@siu.edu",
       "faculty" : "No",
       "firstName" : "Zachary",
-      "lastName" : "Myers"
+      "lastName" : "Myers",
+      "serviceHours" : "0"
     },
     "gnelson" : {
       "class" : 2017,
       "email" : "gabrielle.nelson13@siu.edu",
       "faculty" : "No",
       "firstName" : "Gabrielle",
-      "lastName" : "Nelson"
+      "lastName" : "Nelson",
+      "serviceHours" : "0"
     },
     "cnewlin" : {
       "class" : 2020,
       "email" : "colton.newlin@siu.edu",
       "faculty" : "No",
       "firstName" : "Colton",
-      "lastName" : "Newlin"
+      "lastName" : "Newlin",
+      "serviceHours" : "0"
     },
     "jnicholas" : {
       "class" : 2018,
       "email" : "jnicholas@siu.edu",
       "faculty" : "No",
       "firstName" : "Jared",
-      "lastName" : "Nicholas"
+      "lastName" : "Nicholas",
+      "serviceHours" : "0"
     },
     "gnimmer" : {
       "class" : 2017,
       "email" : "george.nimmer@siu.edu",
       "faculty" : "No",
       "firstName" : "George",
-      "lastName" : "Nimmer"
+      "lastName" : "Nimmer",
+      "serviceHours" : "0"
     },
     "tpaden" : {
       "class" : 2017,
       "email" : "taniahpaden@siu.edu",
       "faculty" : "No",
       "firstName" : "Taniah",
-      "lastName" : "Paden"
+      "lastName" : "Paden",
+      "serviceHours" : "0"
     },
     "mpetrowich" : {
       "class" : 2019,
       "email" : "mpetrowich@siu.edu",
       "faculty" : "No",
       "firstName" : "Maria",
-      "lastName" : "Petrowich"
+      "lastName" : "Petrowich",
+      "serviceHours" : "0"
     },
     "vpfaff" : {
       "class" : 2018,
       "email" : "vpfaff12@siu.edu",
       "faculty" : "No",
       "firstName" : "Valerie",
-      "lastName" : "Pfaff"
+      "lastName" : "Pfaff",
+      "serviceHours" : "0"
     },
     "cphillips" : {
       "class" : 2020,
       "email" : "christopher.phillips@siu.edu",
       "faculty" : "No",
       "firstName" : "Christopher",
-      "lastName" : "Phillips"
+      "lastName" : "Phillips",
+      "serviceHours" : "0"
     },
     "kpinto" : {
       "class" : 2019,
       "email" : "kay.pinto@siu.edu",
       "faculty" : "No",
       "firstName" : "Kayonna",
-      "lastName" : "Pinto"
+      "lastName" : "Pinto",
+      "serviceHours" : "0"
     },
     "npoe" : {
       "class" : 2019,
       "email" : "nick.poe@siu.edu",
       "faculty" : "No",
       "firstName" : "Nicholas",
-      "lastName" : "Poe"
+      "lastName" : "Poe",
+      "serviceHours" : "0"
     },
     "jporter" : {
       "class" : 2019,
       "email" : "porter.justin@siu.edu",
       "faculty" : "No",
       "firstName" : "Justin",
-      "lastName" : "Porter"
+      "lastName" : "Porter",
+      "serviceHours" : "0"
     },
     "lprado" : {
       "class" : 2020,
       "email" : "luis.prado@siu.edu",
       "faculty" : "No",
       "firstName" : "Luis",
-      "lastName" : "Prado"
+      "lastName" : "Prado",
+      "serviceHours" : "0"
     },
     "sraine" : {
       "class" : 2018,
       "email" : "sraine@siu.edu",
       "faculty" : "No",
       "firstName" : "Samuel",
-      "lastName" : "Raine"
+      "lastName" : "Raine",
+      "serviceHours" : "0"
     },
     "eratcliff" : {
       "class" : 2020,
       "email" : "elise.ratcliff@siu.edu",
       "faculty" : "No",
       "firstName" : "Elise",
-      "lastName" : "Ratcliff"
+      "lastName" : "Ratcliff",
+      "serviceHours" : "0"
     },
     "cray" : {
       "class" : 2017,
       "email" : "carissaray13@siu.edu",
       "faculty" : "No",
       "firstName" : "Carissa",
-      "lastName" : "Ray"
+      "lastName" : "Ray",
+      "serviceHours" : "0"
     },
     "jroberts" : {
       "class" : 2018,
       "email" : "jeremiahroberts@siu.edu",
       "faculty" : "No",
       "firstName" : "Jeremiah",
-      "lastName" : "Roberts"
+      "lastName" : "Roberts",
+      "serviceHours" : "0"
     },
     "sroling" : {
       "class" : 2020,
       "email" : "sidney.roling@siu.edu",
       "faculty" : "No",
       "firstName" : "Sidney",
-      "lastName" : "Roling"
+      "lastName" : "Roling",
+      "serviceHours" : "0"
     },
     "nrose" : {
       "class" : 2019,
       "email" : "nathan.rose@siu.edu",
       "faculty" : "No",
       "firstName" : "Nathan",
-      "lastName" : "Rose"
+      "lastName" : "Rose",
+      "serviceHours" : "0"
     },
     "jrosenstengel" : {
       "class" : 2020,
       "email" : "julia.rosenstengel@siu.edu",
       "faculty" : "No",
       "firstName" : "Julia",
-      "lastName" : "Rosenstengel"
+      "lastName" : "Rosenstengel",
+      "serviceHours" : "0"
     },
     "rsabo" : {
       "class" : 2017,
       "email" : "ryanmsabo@siu.edu",
       "faculty" : "No",
       "firstName" : "Ryan",
-      "lastName" : "Sabo"
+      "lastName" : "Sabo",
+      "serviceHours" : "0"
     },
     "jscalero" : {
       "class" : 2020,
       "email" : "jackson.scalero@siu.edu",
       "faculty" : "No",
       "firstName" : "Jackson",
-      "lastName" : "Scalero"
+      "lastName" : "Scalero",
+      "serviceHours" : "0"
     },
     "kschellhardt" : {
       "class" : 2017,
       "email" : "kschellhardt@siu.edu",
       "faculty" : "No",
       "firstName" : "Kristin",
-      "lastName" : "Schellhardt"
+      "lastName" : "Schellhardt",
+      "serviceHours" : "0"
     },
     "mschmidlin" : {
       "class" : 2017,
       "email" : "mattsm21@siu.edu",
       "faculty" : "No",
       "firstName" : "Matthew",
-      "lastName" : "Schmidlin"
+      "lastName" : "Schmidlin",
+      "serviceHours" : "0"
     },
     "asherman" : {
       "class" : 2017,
       "email" : "sherman.d.austin@siu.edu",
       "faculty" : "No",
       "firstName" : "Austin",
-      "lastName" : "Sherman"
+      "lastName" : "Sherman",
+      "serviceHours" : "0"
     },
     "csirko" : {
       "class" : 2017,
       "email" : "cindi.sirko94@siu.edu",
       "faculty" : "No",
       "firstName" : "Cynthia",
-      "lastName" : "Sirko"
+      "lastName" : "Sirko",
+      "serviceHours" : "0"
     },
     "dsmith" : {
       "class" : 2020,
       "email" : "deion.smith@siu.edu",
       "faculty" : "No",
       "firstName" : "Deion",
-      "lastName" : "Smith"
+      "lastName" : "Smith",
+      "serviceHours" : "0"
     },
     "ksmith" : {
       "class" : 2019,
       "email" : "ksmith2015@siu.edu",
       "faculty" : "No",
       "firstName" : "Kelsey",
-      "lastName" : "Smith"
+      "lastName" : "Smith",
+      "serviceHours" : "0"
     },
     "aspiwak" : {
       "class" : 2020,
       "email" : "abbie.spiwak@siu.edu",
       "faculty" : "No",
       "firstName" : "Abbie",
-      "lastName" : "Spiwak"
+      "lastName" : "Spiwak",
+      "serviceHours" : "0"
     },
     "aspoerre" : {
       "class" : 2018,
       "email" : "aspoerre@siu.edu",
       "faculty" : "No",
       "firstName" : "Anna",
-      "lastName" : "Spoerre"
+      "lastName" : "Spoerre",
+      "serviceHours" : "0"
     },
     "mstamberger" : {
       "class" : 2017,
       "email" : "mstamberger@siu.edu",
       "faculty" : "No",
       "firstName" : "Meredith",
-      "lastName" : "Stamberger"
+      "lastName" : "Stamberger",
+      "serviceHours" : "0"
     },
     "tstanley" : {
       "class" : 2017,
       "email" : "stanley.95@siu.edu",
       "faculty" : "No",
       "firstName" : "Trevor",
-      "lastName" : "Stanley"
+      "lastName" : "Stanley",
+      "serviceHours" : "0"
     },
     "kstarkweather" : {
       "class" : 2018,
       "email" : "karastarkweather@siu.edu",
       "faculty" : "No",
       "firstName" : "Kara",
-      "lastName" : "Starkweather"
+      "lastName" : "Starkweather",
+      "serviceHours" : "0"
     },
     "astorey" : {
       "class" : 2019,
       "email" : "andrea.storey@siu.edu",
       "faculty" : "No",
       "firstName" : "Andrea",
-      "lastName" : "Storey"
+      "lastName" : "Storey",
+      "serviceHours" : "0"
     },
     "rstuckel" : {
       "class" : 2020,
       "email" : "rachel.stuckel@siu.edu",
       "faculty" : "No",
       "firstName" : "Rachel",
-      "lastName" : "Stuckel"
+      "lastName" : "Stuckel",
+      "serviceHours" : "0"
     },
     "otaitt" : {
       "class" : 2018,
       "email" : "otaitt@siu.edu",
       "faculty" : "No",
       "firstName" : "Olivia",
-      "lastName" : "Taitt"
+      "lastName" : "Taitt",
+      "serviceHours" : "0"
     },
     "gvargas" : {
       "class" : 2019,
       "email" : "grace.vargas@siu.edu",
       "faculty" : "No",
       "firstName" : "Grace",
-      "lastName" : "Vargas"
+      "lastName" : "Vargas",
+      "serviceHours" : "0"
     },
     "ovargas" : {
       "class" : 2019,
       "email" : "oneidav@siu.edu",
       "faculty" : "No",
       "firstName" : "Oneida",
-      "lastName" : "Vargas"
+      "lastName" : "Vargas",
+      "serviceHours" : "0"
     },
     "svenis" : {
       "class" : 2017,
       "email" : "stephanie.venis04@siu.edu",
       "faculty" : "No",
       "firstName" : "Stephanie",
-      "lastName" : "Venis"
+      "lastName" : "Venis",
+      "serviceHours" : "0"
     },
     "rwagner" : {
       "class" : 2020,
       "email" : "riley.wagner@siu.edu",
       "faculty" : "No",
       "firstName" : "Riley",
-      "lastName" : "Wagner"
+      "lastName" : "Wagner",
+      "serviceHours" : "0"
     },
     "awalch" : {
       "class" : 2017,
       "email" : "awalch@siu.edu",
       "faculty" : "No",
       "firstName" : "Alexandria",
-      "lastName" : "Walch"
+      "lastName" : "Walch",
+      "serviceHours" : "0"
     },
     "awaldon" : {
       "class" : 2017,
       "email" : "aemilyw@siu.edu",
       "faculty" : "No",
       "firstName" : "Alice",
-      "lastName" : "Waldon"
+      "lastName" : "Waldon",
+      "serviceHours" : "0"
     },
     "ewalker" : {
       "class" : 2020,
       "email" : "ellyse.walker@siu.edu",
       "faculty" : "No",
       "firstName" : "Ellyse",
-      "lastName" : "Walker"
+      "lastName" : "Walker",
+      "serviceHours" : "0"
     },
     "ewallander" : {
       "class" : 2018,
       "email" : "ewallander@siu.edu",
       "faculty" : "No",
       "firstName" : "Emma",
-      "lastName" : "Wallander"
+      "lastName" : "Wallander",
+      "serviceHours" : "0"
     },
     "gwatts" : {
       "class" : 2019,
       "email" : "gwatts@siu.edu",
       "faculty" : "No",
       "firstName" : "Garrett",
-      "lastName" : "Watts"
+      "lastName" : "Watts",
+      "serviceHours" : "0"
     },
     "aweigle" : {
       "class" : 2018,
       "email" : "austinweigle@siu.edu",
       "faculty" : "No",
       "firstName" : "Austin",
-      "lastName" : "Weigle"
+      "lastName" : "Weigle",
+      "serviceHours" : "0"
     },
     "bwestrich" : {
       "class" : 2018,
       "email" : "bwestrich@siu.edu",
       "faculty" : "No",
       "firstName" : "Ben",
-      "lastName" : "Westrich"
+      "lastName" : "Westrich",
+      "serviceHours" : "0"
     },
     "bweymer" : {
       "class" : 2020,
       "email" : "isabella.weymer@siu.edu",
       "faculty" : "No",
       "firstName" : "Bella",
-      "lastName" : "Weymer"
+      "lastName" : "Weymer",
+      "serviceHours" : "0"
     },
     "twheelan" : {
       "class" : 2017,
       "email" : "tjwheelan94@siu.edu",
       "faculty" : "No",
       "firstName" : "Tyler",
-      "lastName" : "Wheelan"
+      "lastName" : "Wheelan",
+      "serviceHours" : "0"
     },
     "mwheeler" : {
       "class" : 2020,
       "email" : "mallory.wheeler@siu.edu",
       "faculty" : "No",
       "firstName" : "Mallory",
-      "lastName" : "Wheeler"
+      "lastName" : "Wheeler",
+      "serviceHours" : "0"
     },
     "kwhittington" : {
       "class" : 2017,
       "email" : "kwhitt13@siu.edu",
       "faculty" : "No",
       "firstName" : "Kyle",
-      "lastName" : "Whittington"
+      "lastName" : "Whittington",
+      "serviceHours" : "0"
     },
     "bwilson" : {
       "class" : 2019,
       "email" : "brodywilson@siu.edu",
       "faculty" : "No",
       "firstName" : "Brody",
-      "lastName" : "Wilson"
+      "lastName" : "Wilson",
+      "serviceHours" : "0"
     }
   }
-}
+}  
