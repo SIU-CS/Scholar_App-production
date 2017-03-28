@@ -6,6 +6,7 @@ public class Scholar
    private String faculty;
    private String firstName;
    private String lastName;
+   private int serviceHours;
    
    //default constructor
    public Scholar()
@@ -15,6 +16,7 @@ public class Scholar
       faculty = "empty";
       firstName = "empty";
       lastName = "empty";
+      serviceHours = "0"
    }
    
    //setters
@@ -38,6 +40,10 @@ public class Scholar
    {
       this.lastName = last;
    }
+   public void setServiceHours(int hours)
+   {
+	   this.serviceHours = hours;
+   }
    
    //getters
    public String getClassYear()
@@ -60,13 +66,17 @@ public class Scholar
    {
       return this.lastName;
    }
+   public int getServiceHours()
+   {
+	   return this.serviceHours
+   }
    
    //toString method
    public String toString()
    {
       return ("\nFaculty: " + faculty + " First: " + firstName + 
              " Last: " + lastName + " Email: " + emailAddr + 
-             " Year: " + classYear);
+             " Year: " + classYear + "Service Hours: " + serviceHours);
    }
 
 }
