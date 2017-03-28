@@ -74,6 +74,7 @@ public class OutputCSVasJSON {
             output += "      \"faculty\" : \"" + scholars[i].getFaculty() + "\",\n";
             output += "      \"firstName\" : \"" + scholars[i].getFirstName() + "\",\n";
             output += "      \"lastName\" : \"" + scholars[i].getLastName() + "\"\n";
+            output += "      \"serviceHours\" : \"" + 0 + "\"\n";
             output += "    },\n";
             
             
