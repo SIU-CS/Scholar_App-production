@@ -1,12 +1,12 @@
 {
   "users" : {
 	"hhurlburt" : {
-	  "class" : 0,
-	  "email" : "hurlburt@siu.edu",
-	  "faculty" : "Yes",
-	  "firstName" : "Holly",
-	  "lastName" : "Hurlburt",
-	  "serviceHours" : "0"
+      "class" : 0,
+      "email" : "hurlburt@siu.edu",
+      "faculty" : "Yes",
+      "firstName" : "Holly",
+      "lastName" : "Hurlburt",
+      "serviceHours" : 0
     },
     "mwickey" : {
       "class" : 0,
@@ -14,7 +14,7 @@
       "faculty" : "Yes ",
       "firstName" : "Matthew",
       "lastName" : "Wickey",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "falejo" : {
       "class" : 2018,
@@ -22,7 +22,7 @@
       "faculty" : "No",
       "firstName" : "Franchesca",
       "lastName" : "Alejo",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "damos" : {
       "class" : 2017,
@@ -30,7 +30,7 @@
       "faculty" : "No",
       "firstName" : "Delia",
       "lastName" : "Amos",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "eanderson" : {
       "class" : 2017,
@@ -38,7 +38,7 @@
       "faculty" : "No",
       "firstName" : "Erin",
       "lastName" : "Anderson",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kbaalman" : {
       "class" : 2017,
@@ -46,7 +46,7 @@
       "faculty" : "No",
       "firstName" : "Kailyn",
       "lastName" : "Baalman",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mbaker" : {
       "class" : 2020,
@@ -54,7 +54,7 @@
       "faculty" : "No",
       "firstName" : "Maura",
       "lastName" : "Baker",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "cbammann" : {
       "class" : 2019,
@@ -62,7 +62,7 @@
       "faculty" : "No",
       "firstName" : "Clair",
       "lastName" : "Bammann",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "gbarrows" : {
       "class" : 2017,
@@ -70,7 +70,7 @@
       "faculty" : "No",
       "firstName" : "Gage",
       "lastName" : "Barrows",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "abeckmeyer" : {
       "class" : 2017,
@@ -78,7 +78,7 @@
       "faculty" : "No",
       "firstName" : "Annamarie",
       "lastName" : "Beckmeyer",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "eblalock" : {
       "class" : 2018,
@@ -86,7 +86,7 @@
       "faculty" : "No",
       "firstName" : "Elizabeth",
       "lastName" : "Blalock",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jbonadurer" : {
       "class" : 2019,
@@ -94,7 +94,7 @@
       "faculty" : "No",
       "firstName" : "Jordan",
       "lastName" : "Bonadurer",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "aboudreau" : {
       "class" : 2018,
@@ -102,7 +102,7 @@
       "faculty" : "No",
       "firstName" : "Alaina",
       "lastName" : "Boudreau",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "cbouey" : {
       "class" : 2018,
@@ -110,7 +110,7 @@
       "faculty" : "No",
       "firstName" : "Carmen",
       "lastName" : "Bouey",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "vbrooks" : {
       "class" : 2018,
@@ -118,7 +118,7 @@
       "faculty" : "No",
       "firstName" : "Vyctoria",
       "lastName" : "Brooks",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ebuice" : {
       "class" : 2019,
@@ -126,7 +126,7 @@
       "faculty" : "No",
       "firstName" : "Emily",
       "lastName" : "Buice",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "acampbell" : {
       "class" : 2017,
@@ -134,7 +134,7 @@
       "faculty" : "No",
       "firstName" : "Allison",
       "lastName" : "Campbell",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "acarson" : {
       "class" : 2019,
@@ -142,7 +142,7 @@
       "faculty" : "No",
       "firstName" : "Alycia",
       "lastName" : "Carson",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "tcortez" : {
       "class" : 2020,
@@ -150,7 +150,7 @@
       "faculty" : "No",
       "firstName" : "Tomas",
       "lastName" : "Cortez",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "adavis" : {
       "class" : 2020,
@@ -158,7 +158,7 @@
       "faculty" : "No",
       "firstName" : "Andrew",
       "lastName" : "Davis",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "rdavis" : {
       "class" : 2020,
@@ -166,7 +166,7 @@
       "faculty" : "No",
       "firstName" : "Ryan",
       "lastName" : "Davis",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "meason" : {
       "class" : 2020,
@@ -174,7 +174,7 @@
       "faculty" : "No",
       "firstName" : "Makayla",
       "lastName" : "Eason",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "meaton" : {
       "class" : 2017,
@@ -182,7 +182,7 @@
       "faculty" : "No",
       "firstName" : "Miller",
       "lastName" : "Eaton",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "redgar" : {
       "class" : 2017,
@@ -190,7 +190,7 @@
       "faculty" : "No",
       "firstName" : "Rachel",
       "lastName" : "Edgar",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jellsworth" : {
       "class" : 2020,
@@ -198,7 +198,7 @@
       "faculty" : "No",
       "firstName" : "Jake",
       "lastName" : "Ellsworth",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "lengelmeier" : {
       "class" : 2017,
@@ -206,7 +206,7 @@
       "faculty" : "No",
       "firstName" : "Lizabeth",
       "lastName" : "Engelmeier",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "afarthing" : {
       "class" : 2020,
@@ -214,7 +214,7 @@
       "faculty" : "No",
       "firstName" : "Aaron",
       "lastName" : "Farthing",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kflood" : {
       "class" : 2020,
@@ -222,7 +222,7 @@
       "faculty" : "No",
       "firstName" : "Kendra",
       "lastName" : "Flood",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "afoy" : {
       "class" : 2018,
@@ -230,7 +230,7 @@
       "faculty" : "No",
       "firstName" : "Andrew",
       "lastName" : "Foy",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kfriend" : {
       "class" : 2018,
@@ -238,7 +238,7 @@
       "faculty" : "No",
       "firstName" : "Kaitlin",
       "lastName" : "Friend",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "agagne" : {
       "class" : 2018,
@@ -246,7 +246,7 @@
       "faculty" : "No",
       "firstName" : "Alohilani",
       "lastName" : "Gagne",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jgaston" : {
       "class" : 2018,
@@ -254,7 +254,7 @@
       "faculty" : "No",
       "firstName" : "Jordan",
       "lastName" : "Gaston",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jgiacobbi" : {
       "class" : 2020,
@@ -262,7 +262,7 @@
       "faculty" : "No",
       "firstName" : "Jessica",
       "lastName" : "Giacobbi",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "agoeckner" : {
       "class" : 2018,
@@ -270,7 +270,7 @@
       "faculty" : "No",
       "firstName" : "Aaron",
       "lastName" : "Goeckner",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "sgreen" : {
       "class" : 2017,
@@ -278,7 +278,7 @@
       "faculty" : "No",
       "firstName" : "Samantha",
       "lastName" : "Green",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ahall" : {
       "class" : 2019,
@@ -286,7 +286,7 @@
       "faculty" : "No",
       "firstName" : "Adam",
       "lastName" : "Hall",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ehall-skank" : {
       "class" : 2018,
@@ -294,7 +294,7 @@
       "faculty" : "No",
       "firstName" : "Emmalie",
       "lastName" : "Hall-Skank",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mhalpin" : {
       "class" : 2017,
@@ -302,7 +302,7 @@
       "faculty" : "No",
       "firstName" : "Michael",
       "lastName" : "Halpin",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "nhanke" : {
       "class" : 2017,
@@ -310,7 +310,7 @@
       "faculty" : "No",
       "firstName" : "Nicole",
       "lastName" : "Hanke",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "rharder" : {
       "class" : 2019,
@@ -318,7 +318,7 @@
       "faculty" : "No",
       "firstName" : "Rebecca",
       "lastName" : "Harder",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "sharrington" : {
       "class" : 2019,
@@ -326,7 +326,7 @@
       "faculty" : "No",
       "firstName" : "Shelby",
       "lastName" : "Harrington",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mhiggins" : {
       "class" : 2018,
@@ -334,7 +334,7 @@
       "faculty" : "No",
       "firstName" : "Mason",
       "lastName" : "Higgins",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ghorman" : {
       "class" : 2018,
@@ -342,7 +342,7 @@
       "faculty" : "No",
       "firstName" : "Grace",
       "lastName" : "Horman",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "yibrahim" : {
       "class" : 2020,
@@ -350,7 +350,7 @@
       "faculty" : "No",
       "firstName" : "Yasmin",
       "lastName" : "Ibrahim",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kjenkins" : {
       "class" : 2018,
@@ -358,7 +358,7 @@
       "faculty" : "No",
       "firstName" : "Kevin",
       "lastName" : "Jenkins",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ejohns" : {
       "class" : 2020,
@@ -366,7 +366,7 @@
       "faculty" : "No",
       "firstName" : "Emma",
       "lastName" : "Johns",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ajohnson" : {
       "class" : 2018,
@@ -374,7 +374,7 @@
       "faculty" : "No",
       "firstName" : "Alexis",
       "lastName" : "Johnson",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "cjohnson" : {
       "class" : 2018,
@@ -382,7 +382,7 @@
       "faculty" : "No",
       "firstName" : "Cody",
       "lastName" : "Johnson",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ajourdan" : {
       "class" : 2017,
@@ -390,7 +390,7 @@
       "faculty" : "No",
       "firstName" : "Amanda",
       "lastName" : "Jourdan",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "akellerman" : {
       "class" : 2019,
@@ -398,7 +398,7 @@
       "faculty" : "No",
       "firstName" : "Allison",
       "lastName" : "Kellerman",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ckinnard" : {
       "class" : 2018,
@@ -406,7 +406,7 @@
       "faculty" : "No",
       "firstName" : "Courtney",
       "lastName" : "Kinnard",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kkirkpatrick" : {
       "class" : 2017,
@@ -414,7 +414,7 @@
       "faculty" : "No",
       "firstName" : "Kori",
       "lastName" : "Kirkpatrick",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "zkoester" : {
       "class" : 2017,
@@ -422,7 +422,7 @@
       "faculty" : "No",
       "firstName" : "Zoey",
       "lastName" : "Koester",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "akurumbail" : {
       "class" : 2017,
@@ -430,7 +430,7 @@
       "faculty" : "No",
       "firstName" : "Anurag",
       "lastName" : "Kurumbail",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "tlane" : {
       "class" : 2019,
@@ -438,7 +438,7 @@
       "faculty" : "No",
       "firstName" : "Thorin",
       "lastName" : "Lane",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "nlangheld" : {
       "class" : 2018,
@@ -446,7 +446,7 @@
       "faculty" : "No",
       "firstName" : "Nicholas",
       "lastName" : "Langheld",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "tlarsen" : {
       "class" : 2019,
@@ -454,7 +454,7 @@
       "faculty" : "No",
       "firstName" : "Tyler",
       "lastName" : "Larsen",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "elechman" : {
       "class" : 2018,
@@ -462,7 +462,7 @@
       "faculty" : "No",
       "firstName" : "Ellen",
       "lastName" : "Lechman",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "klee" : {
       "class" : 2017,
@@ -470,7 +470,7 @@
       "faculty" : "No",
       "firstName" : "Kelsie",
       "lastName" : "Lee",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "clingle" : {
       "class" : 2017,
@@ -478,7 +478,7 @@
       "faculty" : "No",
       "firstName" : "Cody",
       "lastName" : "Lingle",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "dlovett" : {
       "class" : 2020,
@@ -486,7 +486,7 @@
       "faculty" : "No",
       "firstName" : "Donteika",
       "lastName" : "Lovett",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "aludlow" : {
       "class" : 2017,
@@ -494,7 +494,7 @@
       "faculty" : "No",
       "firstName" : "Alan",
       "lastName" : "Ludlow",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "lmahan" : {
       "class" : 2018,
@@ -502,7 +502,7 @@
       "faculty" : "No",
       "firstName" : "Levi",
       "lastName" : "Mahan",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "tmann" : {
       "class" : 2017,
@@ -510,7 +510,7 @@
       "faculty" : "No",
       "firstName" : "Trebor",
       "lastName" : "Mann",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "amaranto" : {
       "class" : 2019,
@@ -518,7 +518,7 @@
       "faculty" : "No",
       "firstName" : "Anastasia",
       "lastName" : "Maranto",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mmartinez" : {
       "class" : 2018,
@@ -526,7 +526,7 @@
       "faculty" : "No",
       "firstName" : "Maritza",
       "lastName" : "Martinez",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "pmccaleb" : {
       "class" : 2018,
@@ -534,7 +534,7 @@
       "faculty" : "No",
       "firstName" : "Paige",
       "lastName" : "McCaleb",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "amedina" : {
       "class" : 2018,
@@ -542,7 +542,7 @@
       "faculty" : "No",
       "firstName" : "Adriana",
       "lastName" : "Medina",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ameyers" : {
       "class" : 2018,
@@ -550,7 +550,7 @@
       "faculty" : "No",
       "firstName" : "Alyssa",
       "lastName" : "Meyers",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "bmoroney" : {
       "class" : 2020,
@@ -558,7 +558,7 @@
       "faculty" : "No",
       "firstName" : "Bridget",
       "lastName" : "Moroney",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "zmyers" : {
       "class" : 2018,
@@ -566,7 +566,7 @@
       "faculty" : "No",
       "firstName" : "Zachary",
       "lastName" : "Myers",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "gnelson" : {
       "class" : 2017,
@@ -574,7 +574,7 @@
       "faculty" : "No",
       "firstName" : "Gabrielle",
       "lastName" : "Nelson",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "cnewlin" : {
       "class" : 2020,
@@ -582,7 +582,7 @@
       "faculty" : "No",
       "firstName" : "Colton",
       "lastName" : "Newlin",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jnicholas" : {
       "class" : 2018,
@@ -590,7 +590,7 @@
       "faculty" : "No",
       "firstName" : "Jared",
       "lastName" : "Nicholas",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "gnimmer" : {
       "class" : 2017,
@@ -598,7 +598,7 @@
       "faculty" : "No",
       "firstName" : "George",
       "lastName" : "Nimmer",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "tpaden" : {
       "class" : 2017,
@@ -606,7 +606,7 @@
       "faculty" : "No",
       "firstName" : "Taniah",
       "lastName" : "Paden",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mpetrowich" : {
       "class" : 2019,
@@ -614,7 +614,7 @@
       "faculty" : "No",
       "firstName" : "Maria",
       "lastName" : "Petrowich",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "vpfaff" : {
       "class" : 2018,
@@ -622,7 +622,7 @@
       "faculty" : "No",
       "firstName" : "Valerie",
       "lastName" : "Pfaff",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "cphillips" : {
       "class" : 2020,
@@ -630,7 +630,7 @@
       "faculty" : "No",
       "firstName" : "Christopher",
       "lastName" : "Phillips",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kpinto" : {
       "class" : 2019,
@@ -638,7 +638,7 @@
       "faculty" : "No",
       "firstName" : "Kayonna",
       "lastName" : "Pinto",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "npoe" : {
       "class" : 2019,
@@ -646,7 +646,7 @@
       "faculty" : "No",
       "firstName" : "Nicholas",
       "lastName" : "Poe",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jporter" : {
       "class" : 2019,
@@ -654,7 +654,7 @@
       "faculty" : "No",
       "firstName" : "Justin",
       "lastName" : "Porter",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "lprado" : {
       "class" : 2020,
@@ -662,7 +662,7 @@
       "faculty" : "No",
       "firstName" : "Luis",
       "lastName" : "Prado",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "sraine" : {
       "class" : 2018,
@@ -670,7 +670,7 @@
       "faculty" : "No",
       "firstName" : "Samuel",
       "lastName" : "Raine",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "eratcliff" : {
       "class" : 2020,
@@ -678,7 +678,7 @@
       "faculty" : "No",
       "firstName" : "Elise",
       "lastName" : "Ratcliff",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "cray" : {
       "class" : 2017,
@@ -686,7 +686,7 @@
       "faculty" : "No",
       "firstName" : "Carissa",
       "lastName" : "Ray",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jroberts" : {
       "class" : 2018,
@@ -694,7 +694,7 @@
       "faculty" : "No",
       "firstName" : "Jeremiah",
       "lastName" : "Roberts",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "sroling" : {
       "class" : 2020,
@@ -702,7 +702,7 @@
       "faculty" : "No",
       "firstName" : "Sidney",
       "lastName" : "Roling",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "nrose" : {
       "class" : 2019,
@@ -710,7 +710,7 @@
       "faculty" : "No",
       "firstName" : "Nathan",
       "lastName" : "Rose",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jrosenstengel" : {
       "class" : 2020,
@@ -718,7 +718,7 @@
       "faculty" : "No",
       "firstName" : "Julia",
       "lastName" : "Rosenstengel",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "rsabo" : {
       "class" : 2017,
@@ -726,7 +726,7 @@
       "faculty" : "No",
       "firstName" : "Ryan",
       "lastName" : "Sabo",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "jscalero" : {
       "class" : 2020,
@@ -734,7 +734,7 @@
       "faculty" : "No",
       "firstName" : "Jackson",
       "lastName" : "Scalero",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kschellhardt" : {
       "class" : 2017,
@@ -742,7 +742,7 @@
       "faculty" : "No",
       "firstName" : "Kristin",
       "lastName" : "Schellhardt",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mschmidlin" : {
       "class" : 2017,
@@ -750,7 +750,7 @@
       "faculty" : "No",
       "firstName" : "Matthew",
       "lastName" : "Schmidlin",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "asherman" : {
       "class" : 2017,
@@ -758,7 +758,7 @@
       "faculty" : "No",
       "firstName" : "Austin",
       "lastName" : "Sherman",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "csirko" : {
       "class" : 2017,
@@ -766,7 +766,7 @@
       "faculty" : "No",
       "firstName" : "Cynthia",
       "lastName" : "Sirko",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "dsmith" : {
       "class" : 2020,
@@ -774,7 +774,7 @@
       "faculty" : "No",
       "firstName" : "Deion",
       "lastName" : "Smith",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ksmith" : {
       "class" : 2019,
@@ -782,7 +782,7 @@
       "faculty" : "No",
       "firstName" : "Kelsey",
       "lastName" : "Smith",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "aspiwak" : {
       "class" : 2020,
@@ -790,7 +790,7 @@
       "faculty" : "No",
       "firstName" : "Abbie",
       "lastName" : "Spiwak",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "aspoerre" : {
       "class" : 2018,
@@ -798,7 +798,7 @@
       "faculty" : "No",
       "firstName" : "Anna",
       "lastName" : "Spoerre",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mstamberger" : {
       "class" : 2017,
@@ -806,7 +806,7 @@
       "faculty" : "No",
       "firstName" : "Meredith",
       "lastName" : "Stamberger",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "tstanley" : {
       "class" : 2017,
@@ -814,7 +814,7 @@
       "faculty" : "No",
       "firstName" : "Trevor",
       "lastName" : "Stanley",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kstarkweather" : {
       "class" : 2018,
@@ -822,7 +822,7 @@
       "faculty" : "No",
       "firstName" : "Kara",
       "lastName" : "Starkweather",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "astorey" : {
       "class" : 2019,
@@ -830,7 +830,7 @@
       "faculty" : "No",
       "firstName" : "Andrea",
       "lastName" : "Storey",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "rstuckel" : {
       "class" : 2020,
@@ -838,7 +838,7 @@
       "faculty" : "No",
       "firstName" : "Rachel",
       "lastName" : "Stuckel",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "otaitt" : {
       "class" : 2018,
@@ -846,7 +846,7 @@
       "faculty" : "No",
       "firstName" : "Olivia",
       "lastName" : "Taitt",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "gvargas" : {
       "class" : 2019,
@@ -854,7 +854,7 @@
       "faculty" : "No",
       "firstName" : "Grace",
       "lastName" : "Vargas",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ovargas" : {
       "class" : 2019,
@@ -862,7 +862,7 @@
       "faculty" : "No",
       "firstName" : "Oneida",
       "lastName" : "Vargas",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "svenis" : {
       "class" : 2017,
@@ -870,7 +870,7 @@
       "faculty" : "No",
       "firstName" : "Stephanie",
       "lastName" : "Venis",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "rwagner" : {
       "class" : 2020,
@@ -878,7 +878,7 @@
       "faculty" : "No",
       "firstName" : "Riley",
       "lastName" : "Wagner",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "awalch" : {
       "class" : 2017,
@@ -886,7 +886,7 @@
       "faculty" : "No",
       "firstName" : "Alexandria",
       "lastName" : "Walch",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "awaldon" : {
       "class" : 2017,
@@ -894,7 +894,7 @@
       "faculty" : "No",
       "firstName" : "Alice",
       "lastName" : "Waldon",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ewalker" : {
       "class" : 2020,
@@ -902,7 +902,7 @@
       "faculty" : "No",
       "firstName" : "Ellyse",
       "lastName" : "Walker",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "ewallander" : {
       "class" : 2018,
@@ -910,7 +910,7 @@
       "faculty" : "No",
       "firstName" : "Emma",
       "lastName" : "Wallander",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "gwatts" : {
       "class" : 2019,
@@ -918,7 +918,7 @@
       "faculty" : "No",
       "firstName" : "Garrett",
       "lastName" : "Watts",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "aweigle" : {
       "class" : 2018,
@@ -926,7 +926,7 @@
       "faculty" : "No",
       "firstName" : "Austin",
       "lastName" : "Weigle",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "bwestrich" : {
       "class" : 2018,
@@ -934,7 +934,7 @@
       "faculty" : "No",
       "firstName" : "Ben",
       "lastName" : "Westrich",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "bweymer" : {
       "class" : 2020,
@@ -942,7 +942,7 @@
       "faculty" : "No",
       "firstName" : "Bella",
       "lastName" : "Weymer",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "twheelan" : {
       "class" : 2017,
@@ -950,7 +950,7 @@
       "faculty" : "No",
       "firstName" : "Tyler",
       "lastName" : "Wheelan",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "mwheeler" : {
       "class" : 2020,
@@ -958,7 +958,7 @@
       "faculty" : "No",
       "firstName" : "Mallory",
       "lastName" : "Wheeler",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "kwhittington" : {
       "class" : 2017,
@@ -966,7 +966,7 @@
       "faculty" : "No",
       "firstName" : "Kyle",
       "lastName" : "Whittington",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     },
     "bwilson" : {
       "class" : 2019,
@@ -974,7 +974,7 @@
       "faculty" : "No",
       "firstName" : "Brody",
       "lastName" : "Wilson",
-      "serviceHours" : "0"
+      "serviceHours" : 0
     }
   }
 }  
