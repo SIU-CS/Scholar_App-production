@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "1021210896750",
+    "firebase_url": "https://scholarapp-f2a76.firebaseio.com",
+    "project_id": "scholarapp-f2a76",
+    "storage_bucket": "scholarapp-f2a76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021210896750:android:374c212961021379",
+        "android_client_info": {
+          "package_name": "siucs.scholarsprogramapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021210896750-bn3a48p58s0p614gj528fm2v3uo5fssv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siucs.scholarsprogramapp",
+            "certificate_hash": "8f11b9dd309847bd6fd38b2322d5eae80e0c6264"
+          }
+        },
+        {
+          "client_id": "1021210896750-pudub2347r718m6gd17bp8pa97h4gd0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siucs.scholarsprogramapp",
+            "certificate_hash": "bf46068d5ee8ab70fdf532897215ca9bdd312132"
+          }
+        },
+        {
+          "client_id": "1021210896750-pql8ebcs6jvc64ck6j91k3qam4i2jt2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siucs.scholarsprogramapp",
+            "certificate_hash": "ef8ba1e80c14d32b9f2c37987d24695c1a7bc246"
+          }
+        },
+        {
+          "client_id": "1021210896750-ip58f0ida849ki01gah891rbvkn1fqcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siucs.scholarsprogramapp",
+            "certificate_hash": "1f296685f7ae9c5054c30c651a7f8a8db194677e"
+          }
+        },
+        {
+          "client_id": "1021210896750-i7k53526hcgv5oi2gk4ljgkbnucfedqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvfCukZdWvgxNeaYIqsjLvcG1uaEENL8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021210896750-i7k53526hcgv5oi2gk4ljgkbnucfedqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021210896750:android:f51e565c22ccab40",
+        "android_client_info": {
+          "package_name": "scholarbase.edit.firebaseeditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021210896750-lnrdoraf6lr6i6c0qjmeieefkv6n67j3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "scholarbase.edit.firebaseeditor",
+            "certificate_hash": "1f296685f7ae9c5054c30c651a7f8a8db194677e"
+          }
+        },
+        {
+          "client_id": "1021210896750-i7k53526hcgv5oi2gk4ljgkbnucfedqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvfCukZdWvgxNeaYIqsjLvcG1uaEENL8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021210896750-i7k53526hcgv5oi2gk4ljgkbnucfedqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
