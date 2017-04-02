@@ -15,11 +15,35 @@
       },
       "oauth_client": [
         {
+          "client_id": "1021210896750-bn3a48p58s0p614gj528fm2v3uo5fssv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siucs.scholarsprogramapp",
+            "certificate_hash": "8f11b9dd309847bd6fd38b2322d5eae80e0c6264"
+          }
+        },
+        {
+          "client_id": "1021210896750-pudub2347r718m6gd17bp8pa97h4gd0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siucs.scholarsprogramapp",
+            "certificate_hash": "bf46068d5ee8ab70fdf532897215ca9bdd312132"
+          }
+        },
+        {
+          "client_id": "1021210896750-pql8ebcs6jvc64ck6j91k3qam4i2jt2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "siucs.scholarsprogramapp",
+            "certificate_hash": "ef8ba1e80c14d32b9f2c37987d24695c1a7bc246"
+          }
+        },
+        {
           "client_id": "1021210896750-ip58f0ida849ki01gah891rbvkn1fqcq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "siucs.scholarsprogramapp",
-            "certificate_hash": "1F296685F7AE9C5054C30C651A7F8A8DB194677E"
+            "certificate_hash": "1f296685f7ae9c5054c30c651a7f8a8db194677e"
           }
         },
         {
