@@ -1,23 +1,27 @@
 package siucs.scholarsprogramapp;
 
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import java.io.ByteArrayOutputStream;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
+
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 
 
@@ -25,7 +29,12 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
 
     private static final int GALLERY_REQUEST = 2200;
     private static final int CAMERA_REQUEST = 3300;
+    private static final int UPLOAD_REQUEST = 4400;
     ImageView ivCamera, ivGallery, ivUpload, uploadSpot;
+
+    private StorageReference mStorage;
+
+    //static Uri galleryUri, cameraUri;
 
 
     @Override
@@ -41,6 +50,8 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
         ivCamera.setOnClickListener(this);
         ivGallery.setOnClickListener(this);
         ivUpload.setOnClickListener(this);
+
+        mStorage = FirebaseStorage.getInstance().getReference();
     }
 
     @Override
@@ -64,8 +75,37 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
                 break;
 
             case R.id.ivUpload:
+                /*if (cameraUri != null) {
 
-                break;
+                    StorageReference filePath = mStorage.child("Photos").child(cameraUri.getLastPathSegment());
+                    filePath.putFile(cameraUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+
+                        @Override
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            Toast.makeText(PhotoUploadActivity.this, "Upload Successful", Toast.LENGTH_LONG).show();
+                        }
+                    }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            Toast.makeText(PhotoUploadActivity.this, "Upload Failed", Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }else if (galleryUri != null){
+                    StorageReference filePath = mStorage.child("Photos").child(galleryUri.getLastPathSegment());
+                    filePath.putFile(galleryUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+
+                        @Override
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            Toast.makeText(PhotoUploadActivity.this, "Upload Successful", Toast.LENGTH_LONG).show();
+                        }
+                    }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            Toast.makeText(PhotoUploadActivity.this, "Upload Failed", Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }
+                break;*/
         }
 
     }
@@ -76,13 +116,13 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
 
         //Makes sure gallery has been opened, content selected was not empty and was acceptable
         if(requestCode == GALLERY_REQUEST && resultCode == RESULT_OK && data != null) {
+
             //Address of image on SDCard
-            Uri imageUri = data.getData();
+            Uri galleryUri = data.getData();
             //Declares stream to read image data from SD Card
             InputStream inputStream;
-
             try {
-                inputStream = getContentResolver().openInputStream(imageUri);
+                inputStream = getContentResolver().openInputStream(galleryUri);
                 //get bitmap from inputStream
                 Bitmap imageBitmap = BitmapFactory.decodeStream(inputStream);
                 uploadSpot.setImageBitmap(imageBitmap);
@@ -93,9 +133,39 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
                 Toast.makeText(this, "Unable to open image", Toast.LENGTH_LONG).show();
             }
 
-        }else if(requestCode == CAMERA_REQUEST){
+            StorageReference filePath = mStorage.child("Photos").child(galleryUri.getLastPathSegment());
+            filePath.putFile(galleryUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+
+                @Override
+                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                    Toast.makeText(PhotoUploadActivity.this, "Upload Successful", Toast.LENGTH_LONG).show();
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    Toast.makeText(PhotoUploadActivity.this, "Upload Failed", Toast.LENGTH_LONG).show();
+                }
+            });
+
+        }else if(requestCode == CAMERA_REQUEST && resultCode == RESULT_OK && data != null){
+
             Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
             uploadSpot.setImageBitmap(thumbnail);
+
+            Uri cameraUri = data.getData();
+            StorageReference filePath = mStorage.child("Photos").child(cameraUri.getLastPathSegment());
+            filePath.putFile(cameraUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+
+                @Override
+                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                    Toast.makeText(PhotoUploadActivity.this, "Upload Successful", Toast.LENGTH_LONG).show();
+                }
+            });
+
+        }else{
+            Toast.makeText(PhotoUploadActivity.this, "FAILLLLLLLL", Toast.LENGTH_LONG).show();
+
         }
     }
+
 }
