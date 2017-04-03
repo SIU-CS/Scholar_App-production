@@ -77,8 +77,5 @@ public class ContactPageActivity extends AppCompatActivity {
         });
 
 
-
-
-
     }
 }

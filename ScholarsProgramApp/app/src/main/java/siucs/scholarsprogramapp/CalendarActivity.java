@@ -28,7 +28,7 @@ public class CalendarActivity extends AppCompatActivity
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth)
             {
-                dateDisplay.setText("Date: " + month + " / " + dayOfMonth + " / " + year);
+                dateDisplay.setText("Date: " + (month+1) + " / " + dayOfMonth + " / " + year);
             }
         });
     }
