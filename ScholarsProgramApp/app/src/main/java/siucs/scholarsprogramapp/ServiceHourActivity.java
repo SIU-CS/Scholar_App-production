@@ -1,5 +1,6 @@
 package siucs.scholarsprogramapp;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,22 +18,33 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.*;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 public class ServiceHourActivity extends AppCompatActivity {
 
     //create Firebase auth object
     private FirebaseAuth firebaseAuth;
+    private DatabaseReference dbRef;
+    private DatabaseReference userRef;
 
     //create objects for the GUI fields and buttons
-    private Button viewServiceHourPhotosButton;
     private Button uploadServiceHourPhotoButton;
     private Button updateServiceHoursButton;
     private EditText serviceHourUpdateTextbox;
     private TextView currentHoursOutOfTwentyText;
 
+
+    private String userID;
     private String userEmail;
+    private String userFirstName;
+    private String userLastName;
+    private String userHoursString;
+    private int userHours;
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -49,12 +61,16 @@ public class ServiceHourActivity extends AppCompatActivity {
         //initialize firebase auth object
         firebaseAuth = FirebaseAuth.getInstance();
 
-        //create a reference to the firebase database
-        final FirebaseDatabase db = FirebaseDatabase.getInstance();
-        DatabaseReference dbRef = db.getReference("scholarapp-f2a76");
+        //make sure user is logged in and if not return to login screen
+        if(firebaseAuth.getCurrentUser() == null){
+            finish();
+            startActivity(new Intent(this, MainActivity.class));
+        }
+
+        //get a reference to users tree
+        dbRef = FirebaseDatabase.getInstance().getReferenceFromUrl("https://scholarapp-f2a76.firebaseio.com/users");
 
         //link created objects with references to the GUI objects
-        viewServiceHourPhotosButton = (Button) findViewById(R.id.viewServiceHourPhotosButton);
         uploadServiceHourPhotoButton = (Button) findViewById(R.id.uploadServiceHourPhotoButton);
         updateServiceHoursButton = (Button) findViewById(R.id.updateServiceHoursButton);
         serviceHourUpdateTextbox = (EditText) findViewById(R.id.serviceHourUpdateTextbox);
@@ -62,21 +78,43 @@ public class ServiceHourActivity extends AppCompatActivity {
 
         //create firebase user object
         FirebaseUser user = firebaseAuth.getCurrentUser();
-        userEmail = user.getEmail();
+        userID = user.getUid();
+
+        userRef = dbRef.child(userID).getRef();
+        userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                User currentUser = dataSnapshot.getValue(User.class);
+                userHours = currentUser.serviceHours;
+                userHoursString = Integer.toString(userHours);
+                currentHoursOutOfTwentyText.setText(userHoursString + " / 20");
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
 
         //give the updateServiceHoursButton an OnClickListener
         updateServiceHoursButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 updateServiceHours();
-            }
-        });
+                userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        User currentUser = dataSnapshot.getValue(User.class);
+                        userHours = currentUser.serviceHours;
+                        userHoursString = Integer.toString(userHours);
+                        currentHoursOutOfTwentyText.setText(userHoursString + " / 20");
+                    }
 
-        //give the viewServiceHourPhotosButton an OnClickListener
-        viewServiceHourPhotosButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //call view photos activity
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                });
             }
         });
 
@@ -85,8 +123,7 @@ public class ServiceHourActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //call upload photo activity
-
-
+                startActivity(new Intent(ServiceHourActivity.this, PhotoUploadActivity.class));
             }
         });
 
@@ -96,26 +133,21 @@ public class ServiceHourActivity extends AppCompatActivity {
     } //end onCreate method
 
     public void updateServiceHours() {
-        //get current service hours before update
-
-
         //if textbox is empty
         if (serviceHourUpdateTextbox.getText().toString().equals(null) || serviceHourUpdateTextbox.getText().toString().equals("")) {
             Toast.makeText(this, "Oops, you didn't make any changes!", Toast.LENGTH_SHORT).show();
         } else {
             String hoursToAddString = serviceHourUpdateTextbox.getText().toString();
-            double hoursToAdd = Double.parseDouble(hoursToAddString);
-            Toast.makeText(this, hoursToAddString, Toast.LENGTH_SHORT).show();
+            int hoursToAdd = Integer.parseInt(hoursToAddString);
+
+            int  newTotalHours = userHours + hoursToAdd;
+            String newTotalHoursString = Integer.toString(newTotalHours);
 
             //if hours would bring total to a negative number
-            if (hoursToAdd > 20 || hoursToAdd < -20) {
+            if (newTotalHours < 0) {
                 Toast.makeText(this, "Oops, you can't have less than zero hours!", Toast.LENGTH_SHORT).show();
-                //if adding negative hours... subtracting hours
-            } else if (hoursToAdd < 0) {
-                Toast.makeText(this, "Subtracting hours", Toast.LENGTH_SHORT).show();
-                //normal adding of hours
             } else {
-                Toast.makeText(this, "Adding hours", Toast.LENGTH_SHORT).show();
+                dbRef.child(userID).child("serviceHours").setValue(newTotalHours);
             }
         }
     }

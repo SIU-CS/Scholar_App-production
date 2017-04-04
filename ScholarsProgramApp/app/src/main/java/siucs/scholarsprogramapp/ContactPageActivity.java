@@ -57,7 +57,7 @@ public class ContactPageActivity extends AppCompatActivity {
                 User tempUser = dataSnapshot.getValue(User.class);
 
                 //add formatted string to contactList to be displayed
-                contactList.add(tempUser.firstName + ", " + tempUser.lastName + "\n"
+                contactList.add(tempUser.firstName + " " + tempUser.lastName + "\n"
                                 + tempUser.email + " - Class of " + tempUser.classYear);
                 arrayAdapter.notifyDataSetChanged();
 
