@@ -35,6 +35,7 @@ public class ServiceHourActivity extends AppCompatActivity {
     //create objects for the GUI fields and buttons
     private Button uploadServiceHourPhotoButton;
     private Button updateServiceHoursButton;
+    private Button viewServiceHourButton;
     private EditText serviceHourUpdateTextbox;
     private TextView currentHoursOutOfTwentyText;
 
@@ -73,6 +74,7 @@ public class ServiceHourActivity extends AppCompatActivity {
         //link created objects with references to the GUI objects
         uploadServiceHourPhotoButton = (Button) findViewById(R.id.uploadServiceHourPhotoButton);
         updateServiceHoursButton = (Button) findViewById(R.id.updateServiceHoursButton);
+        viewServiceHourButton = (Button) findViewById(R.id.viewServiceHourPhotoButton);
         serviceHourUpdateTextbox = (EditText) findViewById(R.id.serviceHourUpdateTextbox);
         currentHoursOutOfTwentyText = (TextView) findViewById(R.id.currentHoursOutOfTwentyText);
 
@@ -124,6 +126,14 @@ public class ServiceHourActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //call upload photo activity
                 startActivity(new Intent(ServiceHourActivity.this, PhotoUploadActivity.class));
+            }
+        });
+
+        viewServiceHourButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //call upload photo activity
+                startActivity(new Intent(ServiceHourActivity.this, ViewPhotoActivity.class));
             }
         });
 
