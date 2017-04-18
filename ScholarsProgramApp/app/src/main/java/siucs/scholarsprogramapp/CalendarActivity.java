@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CalendarView;
@@ -42,6 +43,7 @@ public class CalendarActivity extends AppCompatActivity
 
 
     ArrayList<CalendarEvent> eventList = new ArrayList<>();
+    ArrayList<CalendarEvent> dayEventList = new ArrayList<>();
     ArrayList<String> eventsOnSelectedDay = new ArrayList<>();
 
     @Override
@@ -68,6 +70,10 @@ public class CalendarActivity extends AppCompatActivity
         mDatabaseEvents = FirebaseDatabase.getInstance().getReferenceFromUrl("https://scholarapp-f2a76.firebaseio.com/events");
 
         calendar = Calendar.getInstance(TimeZone.getTimeZone("CST"));
+        calendar.set(Calendar.HOUR_OF_DAY, 12);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
 
 
         //create ArrayAdapter for the listView and connect it with userList
@@ -108,6 +114,7 @@ public class CalendarActivity extends AppCompatActivity
                 calendar.set(Calendar.YEAR, year);
                 calendar.set(Calendar.MONTH, month);
                 calendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+
                 checkCalendar(arrayAdapter);
                 //Log.i("TAG", Long.toString(eventList.get(0).time) + " " + Long.toString(calendar.getTimeInMillis())
                 //               + " " + Long.toString((calendar.getTimeInMillis() + 86400000L)));
@@ -122,25 +129,49 @@ public class CalendarActivity extends AppCompatActivity
             }
         });
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //Toast.makeText(getApplicationContext(), Integer.toString(position), Toast.LENGTH_LONG).show();
+
+
+                Intent intent = new Intent(CalendarActivity.this, RSVPActivity.class);
+                Bundle b = new Bundle();
+                b.putLong("eventTime", dayEventList.get(position).time);
+                b.putInt("eventNumber", eventList.size());
+                b.putString("eventDesc", dayEventList.get(position).desc);
+                intent.putExtras(b); //Put your id to your next Intent
+                startActivity(intent);
+                finish();
+
+                //Toast.makeText(getApplicationContext(), Long.toString(dayEventList.get(position).time), Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
     }
     public void checkCalendar(ArrayAdapter arrayAdapter) {
         eventsOnSelectedDay.clear();
+        dayEventList.clear();
         arrayAdapter.notifyDataSetChanged();
         for (int i = 0; i < eventList.size(); i++) {
-            if ((eventList.get(i).time > calendar.getTimeInMillis()) && (eventList.get(i).time < (calendar.getTimeInMillis() + 86400000L))) {
+            //if ((eventList.get(i).time > calendar.getTimeInMillis()) && (eventList.get(i).time < (calendar.getTimeInMillis() + 86400000L))) {
+            if ((eventList.get(i).time == calendar.getTimeInMillis())) {
                 eventsOnSelectedDay.add(eventList.get(i).desc);
+                dayEventList.add(eventList.get(i));
                 arrayAdapter.notifyDataSetChanged();
+                calendar.set(Calendar.MILLISECOND, calendar.get(Calendar.MILLISECOND) + 1);
+
             }
         }
     }
 
 
     private void addCalendarEvent() {
-        finish();
+
         Intent intent = new Intent(CalendarActivity.this, AddCalendarEventActivity.class);
         Bundle b = new Bundle();
-        b.putLong("dateSelected", calendar.getTimeInMillis()+ 86400000L); //Your id
+        b.putLong("dateSelected", calendar.getTimeInMillis()); //Your id
         b.putString("dateToString", (Integer.toString(calendar.get(Calendar.MONTH) + 1) + "/" +
                                      Integer.toString(calendar.get(Calendar.DAY_OF_MONTH)) + "/" +
                                      Integer.toString(calendar.get(Calendar.YEAR))));

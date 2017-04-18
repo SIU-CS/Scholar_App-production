@@ -52,10 +52,11 @@ public class AddCalendarEventActivity extends AppCompatActivity {
 
         Bundle b = getIntent().getExtras();
 
-        if(b != null)
+        if(b != null) {
             dateSelected = b.getLong("dateSelected");
             dateToString = b.getString("dateToString");
             txtViewEvent.setText("Add event for " + dateToString);
+        }
 
 
         mDatabaseEvents = FirebaseDatabase.getInstance().getReferenceFromUrl("https://scholarapp-f2a76.firebaseio.com/events");
