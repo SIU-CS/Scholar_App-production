@@ -1,10 +1,12 @@
 package siucs.scholarsprogramapp;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.ImageView;
@@ -158,102 +160,162 @@ public class ViewPhotoActivity extends AppCompatActivity {
                     case 0: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv0);
+                        } else {
+                            iv0.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 1: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv1);
+                        } else {
+                            iv1.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 2: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv2);
+                        } else {
+                            iv2.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 3: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv3);
+                        } else {
+                            iv3.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 4: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv4);
+                        } else {
+                            iv4.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 5: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv5);
+                        } else {
+                            iv5.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 6: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv6);
+                        } else {
+                            iv6.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 7: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv7);
+                        } else {
+                            iv7.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 8: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv8);
+                        } else {
+                            iv8.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 9: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv9);
+                        } else {
+                            iv9.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 10: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv10);
+                        } else {
+                            iv10.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 11: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv11);
+                        } else {
+                            iv11.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 12: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv12);
+                        } else {
+                            iv12.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 13: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv13);
+                        } else {
+                            iv13.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 14: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv14);
+                        } else {
+                            iv14.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 15: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv15);
+                        } else {
+                            iv15.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 16: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv16);
+                        } else {
+                            iv16.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 17: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv17);
+                        } else {
+                            iv17.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 18: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv18);
+                        } else {
+                            iv18.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                     case 19: {
                         if(counter < numPhotos) {
                             Picasso.with(ViewPhotoActivity.this).load(uri).into(iv19);
+                        } else {
+                            iv19.setVisibility(View.INVISIBLE);
                         }
+                        break;
                     }
                 }
 
