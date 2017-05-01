@@ -99,7 +99,7 @@ public class RSVPActivity extends AppCompatActivity {
 
     private void RSVP() {
         if(isAlreadyGoing){
-            ArrayList<String> tempAttendees = event.attendees;
+            ArrayList<String> tempAttendees = new ArrayList<>(event.attendees);
             event.attendees.clear();
             for(int i = 0; i < tempAttendees.size(); i++){
                 if(tempAttendees.get(i) != mAuth.getCurrentUser().getUid()) {
