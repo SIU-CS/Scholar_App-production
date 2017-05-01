@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_profile"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,51 +14,60 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
+        android:layout_height="match_parent">
 
         <TextView
             android:text="TextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_gravity="center_horizontal"
-            android:id="@+id/textViewUserEmail" />
+            android:id="@+id/textViewWelcome" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <Button
+                android:text="Contact List"
+                android:drawableTop="@drawable/ic_contact"
+                android:id="@+id/buttonContactList"
+                style="@style/menu_buttons" />
+
+            <Button
+                android:text="Service Hours"
+                android:drawableTop="@drawable/ic_service_hours"
+                android:id="@+id/buttonServiceHours"
+                style="@style/menu_buttons" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+
+            <Button
+                android:text="Calendar"
+                android:drawableTop="@drawable/ic_calendar"
+                android:id="@+id/buttonCalendar"
+                style="@style/menu_buttons" />
+
+            <Button
+                android:text="Message Board"
+                android:drawableTop="@drawable/ic_message_board"
+                android:id="@+id/buttonMessageBoard"
+                style="@style/menu_buttons" />
+
+        </LinearLayout>
 
         <Button
             android:text="Log Out"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/buttonLogOut" />
-
-        <Button
-            android:text="Contact List"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/buttonContactList" />
-
-        <Button
-            android:text="Message Board"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/buttonMessageBoard" />
-
-        <Button
-            android:text="Calendar"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/buttonCalendar" />
-
-        <Button
-            android:text="Service Hours"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/buttonServiceHours"/>
+            android:drawableStart="@drawable/ic_logout"
+            android:drawablePadding="-80dp"
+            android:id="@+id/buttonLogOut"
+            style="@style/menu_buttons" />
     </LinearLayout>
+
 </RelativeLayout>

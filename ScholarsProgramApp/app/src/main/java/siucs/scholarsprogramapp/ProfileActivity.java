@@ -10,19 +10,33 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class ProfileActivity extends AppCompatActivity implements View.OnClickListener{
 
     //create firebase auth object
     private FirebaseAuth firebaseAuth;
 
+    //create database reference objects
+    private DatabaseReference dbRef;
+    private DatabaseReference userRef;
+
     //create objects for GUI components
-    private TextView textViewUserEmail;
+    private TextView textViewWelcome;
     private Button buttonLogOut;
     private Button buttonContactList;
     private Button buttonMessageBoard;
     private Button buttonCalendar;
     private Button buttonServiceHours;
+
+    //create other variables
+    private String userID;
+    private String userFirstName;
+    private String userLastName;
 
 
     @Override
@@ -41,17 +55,38 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         //create firebase user object
         FirebaseUser user = firebaseAuth.getCurrentUser();
+        userID = user.getUid();
+
+        //get a reference to users tree
+        dbRef = FirebaseDatabase.getInstance().getReferenceFromUrl("https://scholarapp-f2a76.firebaseio.com/users");
+        userRef = dbRef.child(userID).getRef();
 
         //link objects with references to GUI components
-        textViewUserEmail = (TextView) findViewById(R.id.textViewUserEmail);
+        textViewWelcome = (TextView) findViewById(R.id.textViewWelcome);
         buttonLogOut = (Button) findViewById(R.id.buttonLogOut);
         buttonContactList = (Button) findViewById(R.id.buttonContactList);
         buttonMessageBoard = (Button) findViewById(R.id.buttonMessageBoard);
         buttonCalendar = (Button) findViewById(R.id.buttonCalendar);
         buttonServiceHours = (Button) findViewById(R.id.buttonServiceHours);
 
-        //set textViewUserEmail text to let the user know they're logged in
-        textViewUserEmail.setText(user.getEmail() + " is logged in!");
+        userRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                User currentUser = dataSnapshot.getValue(User.class);
+                userFirstName = currentUser.firstName;
+                userLastName = currentUser.lastName;
+
+                //set textViewUserEmail text to let the user know they're logged in
+                textViewWelcome.setText("Welcome, " + userFirstName + " " + userLastName + "!");
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+
 
         //create onclicklistener for button
         buttonLogOut.setOnClickListener(this);
