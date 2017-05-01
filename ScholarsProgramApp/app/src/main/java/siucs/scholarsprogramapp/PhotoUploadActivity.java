@@ -16,7 +16,6 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -35,7 +34,6 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
 
     //Final variables used to detect request code
     private static final int GALLERY_REQUEST = 2200;
-    private static final int CAMERA_REQUEST = 3300;
 
     //Initialize imageviews
     ImageView ivGallery, ivUpload, uploadSpot;
@@ -50,7 +48,7 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
 
     private int numPhotos;
     private String userID;
-    public Uri cameraUri, galleryUri;
+    public Uri galleryUri;
 
 
     @Override
@@ -89,7 +87,7 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 User currentUser = dataSnapshot.getValue(User.class);
-                numPhotos = currentUser.classYear;     ////****************************ADD PHPTOS SUBMITTED TO DATABASE******************************
+                numPhotos = currentUser.numberOfPhotos;
             }
 
             @Override
@@ -133,7 +131,7 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
 
                             Toast.makeText(PhotoUploadActivity.this, "Upload Successful", Toast.LENGTH_LONG).show();
-                            dbRef.child(userID).child("classYear").setValue(++numPhotos);
+                            dbRef.child(userID).child("numberOfPhotos").setValue(++numPhotos);
                         }
 
                     }).addOnFailureListener(new OnFailureListener() {
@@ -185,7 +183,7 @@ public class PhotoUploadActivity extends AppCompatActivity implements OnClickLis
             }
 
         } else {
-            Toast.makeText(PhotoUploadActivity.this, "FAILLLLLLLL", Toast.LENGTH_LONG).show();
+            Toast.makeText(PhotoUploadActivity.this, "Photo failed to upload.", Toast.LENGTH_LONG).show();
 
         }
     }

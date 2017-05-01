@@ -1,21 +1,17 @@
 package siucs.scholarsprogramapp;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -37,18 +33,8 @@ public class ViewPhotoActivity extends AppCompatActivity {
 
     private String userID;
     private int numPhotos;
-    private ImageView tempIV;
-    private Uri tempUri;
-    private ArrayList<StorageReference> photoRefArray = new ArrayList<>();
-    private ArrayList<ImageView> imagesArrayList = new ArrayList<>();
-    private ArrayList<String> stringArray = new ArrayList<>();
-    private ArrayAdapter<ImageView> arrayAdapter;
 
     private int counter = 0;
-    private int tempIvId;
-    private ImageView[] imageArray;
-
-    //public ListView mListView;
 
     private ImageView iv0;
     private ImageView iv1;
@@ -87,8 +73,6 @@ public class ViewPhotoActivity extends AppCompatActivity {
             startActivity(new Intent(this, MainActivity.class));
         }
 
-        //mListView = (ListView) findViewById(R.id.mListView);
-
         iv0 = (ImageView) findViewById(R.id.iv0);
         iv1 = (ImageView) findViewById(R.id.iv1);
         iv2 = (ImageView) findViewById(R.id.iv2);
@@ -124,7 +108,7 @@ public class ViewPhotoActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 User currentUser = dataSnapshot.getValue(User.class);
-                numPhotos = currentUser.classYear; ///////////////CHANGE TO PHOTOSSUBMITTED
+                numPhotos = currentUser.numberOfPhotos;
                 viewPhotos();
             }
 
@@ -137,25 +121,9 @@ public class ViewPhotoActivity extends AppCompatActivity {
     }
 
     protected void viewPhotos() {
-        //imageArray = new ImageView[numPhotos];
-        //Toast.makeText(this, "Value end of viewPhotos" + String.valueOf(numPhotos), Toast.LENGTH_SHORT).show();
-        addPhotosToArray();
-        //displayArrayAdapter();
-
-
-
-
-    }
-
-    protected void addPhotosToArray() {
         pStorage.child("Photos").child(userID).child(Integer.toString(counter)).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
             @Override
             public void onSuccess(Uri uri) {
-                //tempIV = new ImageView(ViewPhotoActivity.this);
-                //tempIvId = 100 + counter;
-                //tempIV.setId(tempIvId);
-                //imageArray[counter] = (ImageView) findViewById(tempIvId);
-
                 switch(counter) {
                     case 0: {
                         if(counter < numPhotos) {
@@ -319,13 +287,8 @@ public class ViewPhotoActivity extends AppCompatActivity {
                     }
                 }
 
-                //imagesArrayList.add(imageArray[counter]);
-                //Toast.makeText(ViewPhotoActivity.this, "Added photo #" + String.valueOf(counter), Toast.LENGTH_SHORT).show();
-
                 if(counter < numPhotos-1){
                     incrementCounter();
-                } else {
-                    displayArrayAdapter();
                 }
 
 
@@ -336,16 +299,9 @@ public class ViewPhotoActivity extends AppCompatActivity {
 
     protected void incrementCounter() {
         counter++;
-        addPhotosToArray();
+        viewPhotos();
         return;
     }
 
-    protected void displayArrayAdapter() {
-        //create ArrayAdapter for the listView and connect it with imagesArrayList
-        Toast.makeText(ViewPhotoActivity.this, "Aaaaaand we're back to display our ArrayAdapter", Toast.LENGTH_SHORT).show();
-        //arrayAdapter = new ArrayAdapter<>(ViewPhotoActivity.this, android.R.layout.simple_list_item_1, imagesArrayList);
-        //mListView.setAdapter(arrayAdapter);
-        return;
-    }
 
 }
