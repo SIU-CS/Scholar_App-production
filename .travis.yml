@@ -40,7 +40,7 @@ install: true
 
 before_script:
 
-    - cd ScholarsProgramApp
+    -- cd ScholarsProgramApp
     - echo "y" | android update sdk -a --no-ui --filter sys-img-armeabi-v7a-android-25
     - android list targets
     - chmod 777 gradlew
