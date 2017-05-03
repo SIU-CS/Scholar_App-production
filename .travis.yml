@@ -39,6 +39,8 @@ before_install:
 install: true
 
 before_script:
+
+    #Dash 
     - cd ScholarsProgramApp
     - echo "y" | android update sdk -a --no-ui --filter sys-img-armeabi-v7a-android-25
     - android list targets
