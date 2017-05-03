@@ -29,20 +29,14 @@
         <activity android:name=".ServiceHourActivity" />
         <activity android:name=".ContactPageActivity" />
         <activity android:name=".PhotoUploadActivity" />
-        <!--
- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
-        -->
         <activity android:name=".AddCalendarEventActivity" />
-        <activity android:name=".PhotoUploadActivity" />
+        <activity android:name=".RSVPActivity"/>
         <activity android:name=".ViewPhotoActivity" > </activity>
 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".AddCalendarEventActivity" />
-        <activity android:name=".RSVPActivity"></activity>
     </application>
 
 </manifest>
