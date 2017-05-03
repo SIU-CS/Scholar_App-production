@@ -35,14 +35,15 @@
         -->
         <activity android:name=".AddCalendarEventActivity" />
         <activity android:name=".PhotoUploadActivity" />
-        <activity android:name=".ViewPhotoActivity" > </activity>
+        <activity android:name=".ViewPhotoActivity"></activity>
 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".AddCalendarEventActivity" />
-        <activity android:name=".RSVPActivity"></activity>
+        <activity android:name=".RSVPActivity" />
+        <activity android:name=".MessageBoardPostActivity"></activity>
     </application>
 
 </manifest>
