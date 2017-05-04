@@ -28,7 +28,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="170dp">
+            android:layout_height="180dp">
 
             <Button
                 android:text="Contact List"
@@ -46,7 +46,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="170dp">
+            android:layout_height="180dp">
 
             <Button
                 android:text="Calendar"
@@ -65,6 +65,7 @@
         <Button
             android:text="Log Out"
             android:drawableStart="@drawable/ic_logout"
+            android:layout_height="100dp"
             android:drawablePadding="-80dp"
             android:id="@+id/buttonLogOut"
             style="@style/menu_buttons" />
