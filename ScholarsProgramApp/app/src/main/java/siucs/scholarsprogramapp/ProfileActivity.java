@@ -114,7 +114,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             // when message board button hit, start MessageBoard Activity
             startActivity(new Intent(this, MessageBoardActivity.class));
         }else if(view == buttonCalendar){
-            // when caledar button hit, start Calendar Activity
+            // when calendar button hit, start Calendar Activity
             startActivity(new Intent(this, CalendarActivity.class));
         }else if( view == buttonServiceHours){
             // when service hour button hit, start ServiceHour Activity
@@ -122,4 +122,6 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         }
 
     }
+
+
 }
