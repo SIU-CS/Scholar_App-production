@@ -8,16 +8,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="siucs.scholarsprogramapp.MessageBoardActivity">
+    tools:context="siucs.scholarsprogramapp.MessageBoardPostActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:padding="0dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:weightSum="1"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/postDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Description"
+            android:textSize="24dp"
+            android:layout_weight="0.75" />
+
+        <TextView
+            android:id="@+id/postNameAndDate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Name - Date"
+            android:textSize="15dp"
+            android:layout_weight="0.28" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,13 +47,13 @@
                 android:paddingBottom="0dp"
                 android:layout_width="20dp"
                 android:layout_gravity="bottom"
-                android:layout_height="match_parent"
+                android:layout_height="30dp"
                 android:layout_weight="0.22"
-                android:textSize="30dp"
-                android:text="Posts" />
+                android:textSize="20dp"
+                android:text="Comments" />
 
             <Button
-                android:id="@+id/buttonWritePost"
+                android:id="@+id/buttonAddComment"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:paddingBottom="10dp"
@@ -51,8 +67,8 @@
         <ListView
             android:paddingTop="5dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/postListView"
+            android:layout_height="176dp"
+            android:id="@+id/subPostListView"
             android:clickable="true"
             />
     </LinearLayout>
