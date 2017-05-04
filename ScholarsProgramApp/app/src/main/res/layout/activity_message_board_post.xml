@@ -68,7 +68,7 @@
             android:paddingTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="176dp"
-            android:id="@+id/postListView"
+            android:id="@+id/subPostListView"
             android:clickable="true"
             />
     </LinearLayout>

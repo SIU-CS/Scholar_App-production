@@ -27,6 +27,13 @@ public class MessageBoardPost {
         this.subPosts = subPosts;
     }
 
+    public MessageBoardPost(String posterName, String shortDesc, String body, long timeStamp) {
+        this.posterName = posterName;
+        this.shortDesc = shortDesc;
+        this.body = body;
+        this.timeStamp = timeStamp;
+    }
+
     @Exclude
     public Map<String, Object> toMap() {
         HashMap<String, Object> result = new HashMap<>();
