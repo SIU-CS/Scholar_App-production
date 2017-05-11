@@ -30,4 +30,6 @@ Two options for installation:
     - Store the APK file to your device
 
 
-Note: When in the Photo Upload Activity, click the middle button to select the photo to upload. 
+Note: 
+- When in the Photo Upload Activity, click the middle button to select the photo to upload. 
+- On the login page of the application, use the email 'jpjung2@siu.edu' and password '123456'.
