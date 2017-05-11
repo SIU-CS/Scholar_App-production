@@ -22,11 +22,11 @@ Download from the master branch.
 
 Two options for installation:
 1) directly from the apk file
-  - Store the apk file to your device
+    - Store the apk file to your device
 2) running on a virtual device from Android studio
-  - Allow the project to build
-  - Set up a Virtual Device with the latest SDK
-  - Run the application and select the virdual device you have configured
+    - Allow the project to build
+    - Set up a Virtual Device with the latest SDK
+    - Run the application and select the virdual device you have configured
 
 
 Note: When in the Photo Upload Activity, click the middle button to select the photo to upload. 
