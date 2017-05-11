@@ -27,7 +27,7 @@ Two options for installation:
     - Run the application and select the virdual device you have configured
 2) Directly from the apk file
     - Select Build APK from the Build tab of Android studio
-    - Store the apk file to your device
+    - Store the APK file to your device
 
 
 Note: When in the Photo Upload Activity, click the middle button to select the photo to upload. 
