@@ -24,7 +24,7 @@ Two options for installation:
 1) Running on a virtual device from Android studio
     - Allow the project to build on Android Studio
     - Set up a Virtual Device with the latest SDK
-    - Run the application and select the virdual device you have configured
+    - Run the application and select the Virtual Device you have configured
 2) Directly from the apk file
     - Select Build APK from the Build tab of Android studio
     - Store the APK file to your device
